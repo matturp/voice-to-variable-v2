@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: amstelvar;
+  font-style: normal;
+  src: url('assets/DecovarAlpha-VF.ttf');
+}
+
+body {
+  font-family: amstelvar;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #022b3a;
+}
+
+.variable {
+  color: #f1f1f1;
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-variation-settings: 
+  'wght' 900,
+  'wdth' 100,
+  'slnt' 0,
+  'opsz' 42.4,
+  'XOPQ' 225.18,
+  'GRAD' 83.96,
+  'CONT' 500,
+  'HROT' 0,
+  'VROT' 0,
+  'ESHP' 1,
+  'EGRD' 1.0,
+  'WMX2' 0,
+  'SKLD' 0,
+  'SKLB' 0;
+
+}
